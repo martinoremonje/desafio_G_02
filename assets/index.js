@@ -12,7 +12,7 @@ const multiplicarYFactorial = () => {
         }        
         for (let i = 1; i <= num; i++) {
         factorial *= i;   
-        thediv.innerHTML += `Factorial de ${i} es: ${factorial}<br>`
+        secondDiv.innerHTML += `Factorial de ${i} es: ${factorial}<br>`
         console.log(`Factorial de ${i} es: ${factorial}`)
         }
     } else {
