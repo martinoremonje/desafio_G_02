@@ -1,4 +1,5 @@
 let thediv = document.getElementById("theDiv");
+let secondDiv = document.getElementById("secondDiv");
 
 const multiplicarYFactorial = () => {
     let num = parseInt(prompt("Ingrese numero mayor a 0 y menor a 20"))
@@ -11,6 +12,7 @@ const multiplicarYFactorial = () => {
         }        
         for (let i = 1; i <= num; i++) {
         factorial *= i;   
+        thediv.innerHTML += `Factorial de ${i} es: ${factorial}<br>`
         console.log(`Factorial de ${i} es: ${factorial}`)
         }
     } else {
