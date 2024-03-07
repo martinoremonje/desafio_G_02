@@ -7,7 +7,7 @@ const multiplicarYFactorial = () => {
         for (let i = 1; i <= 10; i++) {
         let res = i * num;
         thediv.innerHTML += `${i} x ${num} = ${res} <br>`
-        console.log(`${i} * ${num} = ${res}`)         
+        console.log(`${i} x ${num} = ${res}`)         
         }        
         for (let i = 1; i <= num; i++) {
         factorial *= i;   
