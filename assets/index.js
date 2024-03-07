@@ -16,7 +16,7 @@ const multiplicarYFactorial = () => {
         console.log(`Factorial de ${i} es: ${factorial}`)
         }
     } else {
-        alert('ingrese numero menor a 20');  
+        alert('Ingrese numero dentro del rango');  
         multiplicarYFactorial();      
       }
 }
